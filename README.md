@@ -1,2 +1,28 @@
-# _homelab
-Personal homelab running on a ThinkPad T430s — Proxmox VE, Pi-hole, Jellyfin, Homepage, and Coolify. Includes service docs, network setup, and runbooks.
+# Homelab 
+
+Personal homelab running on a ThinkPad T430s with Proxmox VE 8.4.
+
+## Quick Links
+
+- [Hardware](hardware/README.md)
+- [Network](network/README.md)
+- [Proxmox](proxmox/README.md)
+- [Services](services/README.md)
+- [Storage](storage/README.md)
+- [Runbooks](runbooks/)
+- [Lessons Learned](lessons-learned.md)
+
+## Addresses & Ports
+
+| Service      | Local URL                         | Public / Tailscale URL                 |
+|--------------|-----------------------------------|----------------------------------------|
+| Proxmox      | https://192.168.8.50:8006         | —                                      |
+| Pi-hole      | http://192.168.8.2/admin          | —                                      |
+| Jellyfin     | http://192.168.8.138:8096         | https://jellyfin.meghdadjafari.dev     |
+| Homepage     | http://192.168.8.141:3000         | —                                      |
+| Coolify      | http://192.168.8.142:8000         | —                                      |
+| Radarr       | http://192.168.8.138:7878         | http://100.71.217.116:7878 (Tailscale) |
+| Sonarr       | http://192.168.8.138:8989         | http://100.71.217.116:8989 (Tailscale) |
+| Prowlarr     | http://192.168.8.138:9696         | http://100.71.217.116:9696 (Tailscale) |
+| qBittorrent  | http://192.168.8.138:8080         | http://100.71.217.116:8080 (Tailscale) |
+| Glances      | http://192.168.8.50:61208         | —                                      |
