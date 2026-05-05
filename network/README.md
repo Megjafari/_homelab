@@ -4,13 +4,13 @@
 
 | Device/Service       | IP              |
 |----------------------|-----------------|
-| Router               | 192.168.8.1     |
-| Proxmox              | 192.168.8.50    |
-| Pi-hole              | 192.168.8.2     |
-| Jellyfin VM          | 192.168.8.138   |
-| Homepage LXC         | 192.168.8.141   |
-| Coolify VM           | 192.168.8.142   |
-| Tailscale (Proxmox)  | 100.71.217.116  |
+| Router               | 192.168.1.1     |
+| Proxmox              | 192.168.1.50    |
+| Pi-hole              | 192.168.1.2     |
+| Jellyfin VM          | 192.168.1.138   |
+| Homepage LXC         | 192.168.1.141   |
+| Coolify VM           | 192.168.1.142   |
+| Tailscale (Proxmox)  | 100.64.0.1  |
 
 ## Tailscale
 

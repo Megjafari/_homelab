@@ -30,7 +30,7 @@ Proxmox shares the HDD with the Jellyfin VM via NFS.
 ### Temporary Mount
 
 ```bash
-mount -t nfs 192.168.8.50:/mnt/media /media
+mount -t nfs 192.168.1.50:/mnt/media /media
 ```
 
 ### Permanent Mount
@@ -38,7 +38,7 @@ mount -t nfs 192.168.8.50:/mnt/media /media
 Add to /etc/fstab on the Jellyfin VM:
 
 ```
-192.168.8.50:/mnt/media  /media  nfs  defaults,_netdev,auto  0  0
+192.168.1.50:/mnt/media  /media  nfs  defaults,_netdev,auto  0  0
 ```
 
 ## Check Disk Usage

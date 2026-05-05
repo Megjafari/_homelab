@@ -8,7 +8,7 @@ Media server with full automation stack via Docker Compose.
 |------------|------------------------------------|
 | Type       | VM (Debian 13)                     |
 | ID         | 101                                |
-| IP         | 192.168.8.138                      |
+| IP         | 192.168.1.138                      |
 | CPU        | 2 cores                            |
 | RAM        | 4GB                                |
 | OS disk    | 40GB                               |
@@ -17,7 +17,7 @@ Media server with full automation stack via Docker Compose.
 ## SSH
 
 ```bash
-ssh meg@192.168.8.138
+ssh meg@192.168.1.138
 sudo su
 ```
 
@@ -59,7 +59,7 @@ Proxmox shares /mnt/media — VM mounts it as /media.
 
 ```bash
 # If mount is lost:
-mount -t nfs 192.168.8.50:/mnt/media /media
+mount -t nfs 192.168.1.50:/mnt/media /media
 
 # Check status:
 df -h /media

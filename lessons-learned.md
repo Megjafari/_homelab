@@ -108,7 +108,7 @@ Mistakes made and lessons learned while building the homelab.
 
 **Cause:** The WebUI rejected requests from a different subnet.
 
-**Fix:** qBittorrent -> Options -> Web UI -> whitelist 192.168.8.0/24
+**Fix:** qBittorrent -> Options -> Web UI -> whitelist 192.168.1.0/24
 
 ---
 

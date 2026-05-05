@@ -2,8 +2,8 @@
 
 ## Setup
 
-- IP: 192.168.8.2
-- Admin: http://192.168.8.2/admin
+- IP: 192.168.1.2
+- Admin: http://192.168.1.2/admin
 - Upstream DNS: Cloudflare (1.1.1.1)
 - Blocked domains: 84,752
 

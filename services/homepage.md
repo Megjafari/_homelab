@@ -8,7 +8,7 @@ Dashboard for all homelab services.
 |-----------|--------------------------|
 | Type      | LXC Container            |
 | ID        | 103                      |
-| IP        | 192.168.8.141            |
+| IP        | 192.168.1.141            |
 | Port      | 3000                     |
 | Config    | /opt/homepage/config/    |
 | Installed | community-script         |
@@ -47,10 +47,10 @@ YAML is extremely sensitive to indentation. Every level = 2 spaces.
 ```yaml
 - Radarr:
     icon: radarr.png
-    href: http://192.168.8.138:7878
+    href: http://192.168.1.138:7878
     widget:
       type: radarr
-      url: http://192.168.8.138:7878
+      url: http://192.168.1.138:7878
       key: <api-key>
 ```
 

@@ -8,8 +8,8 @@ DNS-based ad blocker.
 |------------------|-------------------------|
 | Type             | LXC Container           |
 | ID               | 100                     |
-| IP               | 192.168.8.2             |
-| Admin            | http://192.168.8.2/admin|
+| IP               | 192.168.1.2             |
+| Admin            | http://192.168.1.2/admin|
 | Upstream DNS     | Cloudflare 1.1.1.1      |
 | Blocked domains  | 84,752                  |
 
@@ -24,10 +24,10 @@ Settings -> Web interface / API -> Configure app password
 ```yaml
 - Pi-hole:
     icon: pi-hole.png
-    href: http://192.168.8.2/admin
+    href: http://192.168.1.2/admin
     widget:
       type: pihole
       version: 6
-      url: http://192.168.8.2
+      url: http://192.168.1.2
       key: <app-password>
 ```

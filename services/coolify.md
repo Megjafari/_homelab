@@ -8,7 +8,7 @@ Self-hosted PaaS for deploying personal projects.
 |-------|----------------|
 | Type  | VM (Debian 13) |
 | ID    | 104            |
-| IP    | 192.168.8.142  |
+| IP    | 192.168.1.142  |
 | Port  | 8000           |
 | CPU   | 1 core         |
 | RAM   | 4GB            |

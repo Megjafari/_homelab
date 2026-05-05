@@ -9,14 +9,14 @@
 ## Fix
 
 ```bash
-ssh meg@192.168.8.138
+ssh meg@192.168.1.138
 sudo su
 
 # Remount all fstab entries
 mount -a
 
 # Or manually:
-mount -t nfs 192.168.8.50:/mnt/media /media
+mount -t nfs 192.168.1.50:/mnt/media /media
 
 # Verify
 df -h /media
@@ -33,5 +33,5 @@ Then: Jellyfin -> Libraries -> Scan Library
 Added to /etc/fstab on the Jellyfin VM so the mount survives reboots:
 
 ```
-192.168.8.50:/mnt/media  /media  nfs  defaults  0  0
+192.168.1.50:/mnt/media  /media  nfs  defaults  0  0
 ```
